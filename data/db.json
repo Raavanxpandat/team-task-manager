@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": "usr_89102a5d08f6d5db",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "passwordHash": "c769823031b3d175cbcbbac6f9df065f:1af552f7e0b35583f442a240342548d592a33ca7dfc6275086bc196d62acb64b",
+      "role": "Admin",
+      "createdAt": "2026-05-26T15:49:11.929Z"
+    },
+    {
+      "id": "usr_559c6ff43f39561a",
+      "name": "Member User",
+      "email": "member@example.com",
+      "passwordHash": "846a8b6913842bb5fc1fcf5d679a0290:35745ea847103097a29951bbb52c5918ee0bcf30badaf47ac0fbb0705c8dc519",
+      "role": "Member",
+      "createdAt": "2026-05-26T15:49:11.969Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "ses_84d6ec6de80df1bf",
+      "userId": "usr_89102a5d08f6d5db",
+      "createdAt": "2026-05-26T15:49:48.714Z"
+    },
+    {
+      "token": "ses_1e9cf72597d3605f",
+      "userId": "usr_89102a5d08f6d5db",
+      "createdAt": "2026-05-26T16:06:26.098Z"
+    },
+    {
+      "token": "ses_ca4a227bf821cc86",
+      "userId": "usr_89102a5d08f6d5db",
+      "createdAt": "2026-05-26T16:24:32.222Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "prj_1a80676b99eaf20f",
+      "name": "Website Relaunch",
+      "description": "Coordinate launch tasks, owners, and progress.",
+      "ownerId": "usr_89102a5d08f6d5db",
+      "memberIds": [
+        "usr_89102a5d08f6d5db",
+        "usr_559c6ff43f39561a"
+      ],
+      "createdAt": "2026-05-26T15:49:11.969Z"
+    }
+  ],
+  "tasks": []
+}
